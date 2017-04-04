@@ -10,6 +10,10 @@ html{
 	overflow-x: hidden; 
 	overflow-y: auto; 
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #0e1015;
+}
 #menu ul li{
 	float:left;
 	list-style:none;
@@ -45,8 +49,7 @@ html{
     float:right;
     top: 2px;
 }
-.menu{
-	
+.menu{	
 	padding: 5px 15px 0 0;
 }
 #menuHome{
