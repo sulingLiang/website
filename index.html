@@ -5,31 +5,12 @@
 	<link rel="stylesheet" href="/css/header.css">
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/footer.css">
-	<script src="/js/intense.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
 </head>
 <body>
-<div id="container" style="">
-<!-- header -->
-	<div id="header" style="">
-		<div id="mainHeader">
-			<div id="logoImg">
-				<a href="/">
-					<img src="/img/logo.png" alt="logo" style="">
-				</a>
-			</div>
-			<div id="menu">
-				<ul >
-					<li class="menu"><a href="/" id="menuHome">HOME</a></li>
-					<li class="menu">BLOG</li>
-					<li class="menu">DOWNLOAD</li>
-					<li class="menu">SCREENSHOTS</li>
-					<li class="menu">GET INVOLVED</li>
-					<li class="menu">DEVELOPER</li>
-					<li class="menu">SEARCH</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<div id="container">
+	<!-- header -->
+	<div id="header"></div>	
 <!-- main -->
 	<div id="content" style="position:relative;top:55px">
 		<section>
@@ -109,24 +90,17 @@
 				<img src="/img/6pf6daiwz48-rayi-christian-wicaksono.jpg" alt="keyboard">
 			</div>
 		</section>
-		<!-- <section>
-			<div>
-				<img src="/img/xuliyvibyic-jonas-vincent.jpg" alt="xuliyvibyic-jonas-vincent">
-			</div>
-		</section> -->
+		
 	</div>
-<!-- footer -->
-	<div id="footer" style="width:100%;height:250px;background:black;">
-		<div style="padding: 40px 0 0 210px;width: 35%;">
-			<h2 style="color:white;border-bottom:1px solid #555;width: 240px;">Be in Touch</h2>
-			<a href="https://www.facebook.com/semicoders" class="footer-img"><img src="/img/flat-icons-facebook.png" alt="facebookImg" class="footer-img"></a>
-			<a href="https://www.twitter.com/semicoders"><img src="/img/flat-icons-twitter.png" alt="twitterImg" class="footer-img"></a>
-			<a href="https://plus.google.com/communities/115262645214014627668"><img src="/img/flat-icons-google.png" alt="googleImg" class="footer-img"></a>
-			<a href="#"><img src="/img/flat-icons-linkedin.png" alt="linkedinImg" class="footer-img"></a>
-			<a href="#"><img src="/img/flat-icons-pinterest.png" alt="printerImg" class="footer-img"></a>
-			<p style="color:#666;">Made by <a href="http://www.semicodeos.com/company" target="_blank" style="color:white;text-decoration:none;">SemiCode Inc</a> Powered by <a href="http://www.semicodeos.com" title="WordPress.org" style="color:white;text-decoration:none;">SemiCode OS</a></p>
-		</div>
-	</div>
+	<!-- footer -->
+	<div id="footer"></div>
+	
 </div>
+<script>
+	$(function(){
+		$("#header").load("header.html");
+		$("#footer").load("footer.html");
+	});	
+</script>
 </body>
 </html>

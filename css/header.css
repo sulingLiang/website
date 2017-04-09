@@ -13,12 +13,14 @@ html{
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #0e1015;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #menu ul li{
+	font-weight: 700;
 	float:left;
 	list-style:none;
 	font-size: 11px;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:sans-serif;
 }
 #header{
 	width:100%;
@@ -54,15 +56,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .menu{	
+	font-family: sans-serif;
 	padding: 11px 15px 0 0;
 }
-#menuHome{
+.menu a{
 	text-decoration: none;
-    color: black;
+    color: #666;
 }
-#menuHome:hover{
-	color: #666;
-}
-.menu:hover{
-	color: #666;
+.menu a:hover{
+	color: black;
 }
