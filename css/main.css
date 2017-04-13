@@ -13,6 +13,9 @@ h1{
     text-align: center;
     color: #fff;
 }
+ul li{
+	list-style:none;
+}
 section{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -97,8 +100,56 @@ section{
 	position:relative;
 	top:55px;
 }
+.blog-section article{
+	line-height: 24px;
+    margin: 0 auto;
+    width: 61%;
+    padding: 90px 0 60px;
+}
 .bg-section h3{
 	font-size: 32px;
-	line-height: 40px;
-	padding: 45px 0 0 310px;
+    width: 61%;
+    padding: 50px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.blog-section ul li{
+	float: left;
+    margin-left: -40px;
+}
+.blog-section ul li:nth-child(2){
+	margin:0 30px;
+}
+.blog-section ul li:nth-child(3){
+	float: none;
+}
+.blog-section h2 a{
+	font-family: sans-serif;
+    font-size: 32px;
+    color: #337ab7;
+    text-decoration: none;
+}
+.blog-section a{
+	font-family: sans-serif;
+    color: #337ab7;
+    text-decoration: none;
+}
+.blog-section a:hover{
+	color: royalblue;
+}
+.blog-section span{
+	font-size: 13px;
+	position: relative;
+    top: -3px;
+    padding-left: 5px;
+}
+.blog-section a img{
+	width: 20px;
+}
+.blog-section-li img{
+	width:20px;
+}
+.blog-section li:nth-child(3) > a > img{
+	width: 25px;
+	float: none;
 }

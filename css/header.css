@@ -3,7 +3,6 @@ html body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 html{
@@ -31,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0px;
 }
 #mainHeader{
-	width:55%;
+	width:60%;
 	height:55px;
 	margin-left: auto;
 	margin-right: auto;

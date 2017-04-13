@@ -15,3 +15,8 @@
 	border-bottom:1px solid #555;
 	width: 240px;
 }
+#footer_main{
+	padding: 40px;
+	width: 61%;
+	margin: 0 auto;
+}
