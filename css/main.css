@@ -16,7 +16,7 @@ h1{
 ul li{
 	list-style:none;
 }
-section{
+#content section{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .contentBtn{
@@ -81,18 +81,19 @@ section{
 .lastMainSection h3{
 	font-size: 32px;
 }
-.lastMainSectionImg{
-	margin-bottom: 130px;
-}
 .lastMainSectionImg img{
 	display: inherit;
 	margin-left: auto;
-	width: 60%;
+	width: 70%;
 	max-width: 100%;
 	height: auto;
 	margin-right: auto;
 }
 /* blog.html */
+.blog-main-div{
+	position: relative;
+    top: 50px;
+}
 .bg-section{
 	width:100%;
 	height:140px;
@@ -100,11 +101,13 @@ section{
 	position:relative;
 	top:55px;
 }
+.blog-section{
+	padding: 65px 0 30px;
+}
 .blog-section article{
 	line-height: 24px;
     margin: 0 auto;
     width: 61%;
-    padding: 90px 0 60px;
 }
 .bg-section h3{
 	font-size: 32px;
@@ -152,4 +155,7 @@ section{
 .blog-section li:nth-child(3) > a > img{
 	width: 25px;
 	float: none;
+}
+.blog-section .contentBtn{
+	padding-left: 30px;
 }
