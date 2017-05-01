@@ -5,7 +5,9 @@
 	height: 100vh;
 	max-height: 100%;
 }
-
+a:visited{
+	color: purple;
+}
 h1{
 	font-size: 56px;
     line-height: 64px;
@@ -95,12 +97,15 @@ ul li{
     top: 50px;
 }
 .blog-section{
-	padding: 65px 0 30px;
+	padding: 90px 0 30px;
+}
+.blog-section{
+	width: 61%;
+	margin: 0 auto;
 }
 .blog-section article{
 	line-height: 24px;
-    margin: 0 auto;
-    width: 61%;
+    
 }
 .blog-section ul li{
 	float: left;
