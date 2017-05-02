@@ -20,6 +20,9 @@
 .blog-dev-title{
 	width: 4em;
 }
+.partnership{
+	width: 100%;
+}
 .semi-blog-list{
 	padding-left: inherit;
 }
@@ -36,6 +39,15 @@
 /*semicode-partnership-program.html css*/
 .blog-related{
 	padding-top: 0 !important;
+}
+.blog-section hr{
+	position: relative;
+    height: 2px;
+    top: 10px;
+    background: #f7f3f3;
+    border: 0;
+    margin: 0px auto;
+    width: 128px;
 }
 .blog-section-p{
 	float:left;
@@ -80,4 +92,12 @@ textarea,input[type="text"]{
 }
 #form_submit{
 	float: right;
+}
+.comments h3{
+	font-size: 32px;
+}
+/*screenshot html css*/
+.screenshot_img{
+	width: 100%;
+	margin-top: -5px;
 }

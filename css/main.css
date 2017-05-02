@@ -5,9 +5,6 @@
 	height: 100vh;
 	max-height: 100%;
 }
-a:visited{
-	color: purple;
-}
 h1{
 	font-size: 56px;
     line-height: 64px;
@@ -97,7 +94,7 @@ ul li{
     top: 50px;
 }
 .blog-section{
-	padding: 90px 0 30px;
+	padding: 65px 0 30px;
 }
 .blog-section{
 	width: 61%;
@@ -117,11 +114,11 @@ ul li{
 .blog-section ul li:nth-child(3){
 	float: none;
 }
-.blog-section h2 a{
+.blog-section h1{
 	font-family: sans-serif;
-    font-size: 32px;
-    color: #337ab7;
-    text-decoration: none;
+    color: #0e1015;
+    text-align: left;
+    font-size: 40px;
 }
 .blog-section a{
 	font-family: sans-serif;
