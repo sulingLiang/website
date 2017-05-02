@@ -88,62 +88,9 @@ ul li{
 	height: auto;
 	margin-right: auto;
 }
-/* blog.html */
-.blog-main-div{
-	position: relative;
-    top: 50px;
-}
-.blog-section{
-	padding: 65px 0 30px;
-}
-.blog-section{
-	width: 61%;
-	margin: 0 auto;
-}
-.blog-section article{
-	line-height: 24px;
-    
-}
-.blog-section ul li{
-	float: left;
-    margin-left: -40px;
-}
-.blog-section ul li:nth-child(2){
-	margin:0 30px;
-}
-.blog-section ul li:nth-child(3){
-	float: none;
-}
-.blog-section h1{
-	font-family: sans-serif;
-    color: #0e1015;
-    text-align: left;
-    font-size: 40px;
-}
-.blog-section a{
-	font-family: sans-serif;
-    color: #337ab7;
-    text-decoration: none;
-}
-.blog-section a:hover{
-	color: royalblue;
-}
-.blog-section span{
-	font-size: 13px;
-	position: relative;
-    top: -3px;
-    padding-left: 5px;
-}
-.blog-section a img{
-	width: 20px;
-}
-.blog-section-li img{
-	width:20px;
-}
-.blog-section li:nth-child(3) > a > img{
-	width: 25px;
-	float: none;
-}
-.blog-section .contentBtn{
-	padding-left: 30px;
+/*download html css*/
+.download-main{
+	font-size: 15px;
+	line-height: 12px;
+    margin: 20px 0 45px;
 }

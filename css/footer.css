@@ -9,7 +9,7 @@
 	margin-left: -5px;
 }
 #footer a:hover img{
-	width:37px;
+	transform: scale(1.2);
 }
 #footer h2{
 	color:white;
