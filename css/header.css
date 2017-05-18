@@ -65,3 +65,25 @@ h1, h2, h3, h4, h5, h6 {
 .menu a:hover{
 	color: black;
 }
+#menuSearch{
+	height: 30px;
+    position: fixed;
+    top: 18px;
+    right: 18%;
+}
+.searchEvent{
+	display: none;
+	height: 60px;
+    background: #fff;
+    padding: 5px 0px 0px 10px;
+    position: absolute;
+    width: 270px;
+    right: 15%;
+    top: 55px;
+}
+#searchText{
+	height: 45px;
+}
+#searchSubmit{
+	width: 80px;
+}

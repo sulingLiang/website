@@ -23,11 +23,24 @@
 					<li class="menu"><a href="../screenshot">SCREENSHOTS</a></li>
 					<li class="menu"><a href="">GET INVOLVED</a></li>
 					<li class="menu"><a href="">DEVELOPER</a></li>
-					<li class="menu">SEARCH</li>
+					<li class="menu">
+						<img src="/img/search.jpg" alt="search" id="menuSearch" onmousemove="searchFunction()">
+					</li>
 				</ul>
 			</div>
+			<div class="searchEvent">
+				<form action="/index" method="get">
+					<input type="text" placeholder="TYPE HERE" id="searchText">
+					<input type="submit" id="searchSubmit" value="SEARCH" class="contentBtn">
+				</form>
+			</div>
+
 		</div>
 	</div>
-	
+<script>
+	function searchFunction(){
+		$(".searchEvent").css("display","block");
+	}
+</script>	
 </body>
 </html>
